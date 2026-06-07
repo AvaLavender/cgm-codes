@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope of Variable</title>
+</head>
+<body>
+    
+    <button type="button" onclick="myFunction()">Click Me!</button>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <script>
+        var b = 5;
+        function myFunction() {
+            var a = 4;
+            document.getElementById("demo").innerHTML = "This is b*a =" + b*a;
+        }
+        document.getElementById( "demo1" ).innerHTML = "This is value of global variable b=" + b;
+        document.getElementById( "demo2" ).innerHTML = "This is value of local variable a=" + typeof (a);
+    </script>
+</body>
+</html>

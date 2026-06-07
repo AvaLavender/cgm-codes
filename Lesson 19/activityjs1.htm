@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables, Statements and operators</title>
+</head>
+<body>
+    
+
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+    <p id="remainder"></p>
+    <p id="assign"></p>
+
+    <script>
+        var num1, num2;
+        num1= 10;
+        num2= 2;
+        document.getElementById("add").innerHTML="Addition:" + (num1+num2);
+        document.getElementById("sub").innerHTML = "Subtraction:" + (num1 - num2);
+        document.getElementById("mul").innerHTML = "Multiplication:" + (num1 * num2);
+        document.getElementById("div").innerHTML = "Division:" + (num1 / num2);
+        document.getElementById("div").innerHTML = "Remainder:" + (num1 % num2);
+        document.getElementById("assign").innerHTML = "Addition Assignment:" + (num1+=5);
+    </script>
+</body>
+</html>

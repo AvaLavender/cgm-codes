@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+</head>
+
+<body>
+
+    <form name="myForm" onsubmit="return validateForm()">
+
+        Name: <input id="fname" type="text" name="fname" required>
+        <br><br>
+        Age: <input id="id1" type="number"  min="18" max="99" required>
+        <br><br>
+
+        <input type="submit" value="Submit" onclick="myFunction()">
+        
+    </form>
+    <p id="message1"></p>
+
+    <script>
+
+        function myFunction() {
+            var x = document.forms["myForm"]["fname"].value;
+            if (x == " ") {
+                document.getElementById("message1").innerHTML = "Name must be filled out";
+            }   
+            var y = document.getElementById("id1").value;
+            if (y < 18) {
+                document.getElementById("message1").innerHTML = "Age must be at least 18.";
+            } else if (y > 99) {
+                document.getElementById("message1").innerHTML = "Age must be less than or equal to 99.";
+            } 
+        }      
+    </script>
+
+</body>
+
+</html>

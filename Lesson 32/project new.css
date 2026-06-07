@@ -1,0 +1,27 @@
+
+body {
+    background: #2b2a2b;
+    font-family: 'Batrlow IT', sans-serif;
+}
+ #projects h1 {
+    font-weight: 900;
+ }
+.card {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+.card-img-top {
+    padding: 18px;
+    height: 13rem;
+    object-fit: contain;
+}
+.card-text {
+    color: #617780;
+    font-size: .85rem;
+}
+.btn-warning {
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 5px;
+}

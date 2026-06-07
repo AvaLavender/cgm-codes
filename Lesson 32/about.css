@@ -1,0 +1,29 @@
+
+body{
+    background: linear-gradient(135deg, rgb(11, 11, 78), rgb(61, 7, 61));
+    font-family: 'Roboto Slab', serif;
+}
+
+.about{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.n-heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.btn-outline-warning{
+    border-width:2px;
+    font-weight: 600;
+    padding: 10px 30px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-warning:hover{
+    background-color: rgb(243, 199, 5);
+    transform: scale(1.05);
+}

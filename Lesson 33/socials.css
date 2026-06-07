@@ -1,0 +1,21 @@
+#social-media {background: rgb(4, 4, 48);}
+
+.m-heading {font-weight: 700; margin-top: 6px;}
+
+.media_link{
+    border: 2px solid rgb(223, 158, 20);
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin-right: 10px;
+    background: transparent;
+    text-align: left;
+}
+
+.row.pt-5 { gap: 5px;}
+
+.media_link h3 {font-size: 16px; font-weight: 600px;}
+
+.media_link i{ font-size: 22px;}
+
+.media_link.bg-warning {border: 2px solid rgb(223, 158, 20);}
+

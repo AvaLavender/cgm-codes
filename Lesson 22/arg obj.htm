@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Arguement object</title>
+</head>
+<body>
+    
+    <p>Finding the largest no. w/the help of arguement obj</p>
+    <p id="result"></p>
+     
+    <script>
+
+        function findMax(){
+            var max =0;
+            for (i=0; i < arguments.length; i++) {
+            if (arguments[i]>max) {
+                max=arguments[i];
+            }
+        }
+        return max;
+    }
+    document.getElementById("result").innerHTML="The maximum value out of (8,4,7,9,12,10,13) is: " + findMax(8, 4, 7, 9, 12, 10, 13);
+    </script>
+
+</body>
+</html>

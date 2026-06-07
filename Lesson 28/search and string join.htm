@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h1>JS String() Method</h1>
+    <P>The JS String() method converts a value into a string</P>
+
+    <p id="num_res"></p>
+    <p id="str_res"></p>
+
+    <script>
+
+        var x = 70;
+        var y = 90;
+
+        document.getElementById("num_res").innerHTML = x + y;
+        document.getElementById("str_res").innerHTML =  String(x) + String(y);
+
+        let text = "I Love dogs";
+        let result = text.replace ("dogs", "cats");
+        document.write("The replaces string is: " + result + "<br>");
+
+        let text1 = "I love cats. Cats are very easy to love";
+        let result1 = text1.search("Cats");
+        document.write("The index of the first match is: " + result1 + "<br>"); 
+
+
+    </script>
+</body>
+</html>

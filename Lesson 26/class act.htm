@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <p id="hello"></p>
+    <p id="hi"></p>
+    <p id="welcome"></p>
+    <p id="details"></p>
+
+  <script>
+    class Student {
+    
+    constructor(name) {
+    this.studentName = name;
+    }
+    static hello() {
+    return " ";
+    }
+    
+    static welcome(x) {
+    return "Welcome " + x.studentName;
+    }
+    
+    hi() {
+    return " " + this.studentName;
+    }
+    }
+    
+    myname = new Student("Maya");
+    document.getElementById("hello").innerHTML = Student.hello();
+    document.getElementById("hi").innerHTML = myname.hi();
+    document.getElementById("welcome").innerHTML = Student.welcome(myname);
+
+     class kid {
+            constructor(kid) {
+                this.kidname = kid;
+            }
+            present() {
+                return "I am " + this.kidname;
+            }
+        }
+
+        class mark extends kid {
+            constructor(kid, mark) {
+                super(kid);
+                this.mark = mark;
+            }
+
+            show() {
+                return this.present() + ", i have " + this.mark;
+            }
+        }
+
+        let myKid = new mark ("Maya", "98");
+        document.getElementById("details").innerHTML = myKid.show();
+
+    </script>
+
+</body>
+</html>

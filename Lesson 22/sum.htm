@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <p id="result"></p>
+    
+    <script>
+
+        function findSum() {
+            var sum = 0;
+            for (i = 0; i < arguments.length; i++) {
+                if (arguments[i] + sum) {
+                    sum = sum + arguments[i];
+                }
+            }
+            return sum;
+        }
+        document.getElementById("result").innerHTML = "The sum of (8,4,7,9,12,10,13) is: " + findSum (8, 4, 7, 9, 12, 10, 13);
+
+                document.write("Math.abs(-20): " + Math.abs(-20) + "<br>");
+                document.write("Math.acos(-1): " + Math.acos(-1) + "<br>");
+                document.write("Math.asin(1): " + Math.asin(1) + "<br>");
+                document.write("Math.atan(.5): " + Math.atan(.5) + "<br>");
+                document.write("Math.sin(71): " + Math.sin(71) + "<br>");
+
+    </script>
+</body>
+</html>

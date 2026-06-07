@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <button onclick="ascending()">Ascending order</button>
+        
+    <button onclick="descending()">Descending order</button>
+ 
+    <p id="product_value"></p>
+    <p id="result"></p>
+        
+    <script>
+
+            var numbers = [21, 32, 43, 54];
+
+            document.getElementById("result").innerHTML = "Original numbers are: " + numbers;
+
+             function myFunction(num) {
+                    return num * 2;
+                }
+
+                var newarray = numbers.map(myFunction);
+                document.getElementById("product_value").innerHTML = "Mapped numnbers are: " + newarray;     
+
+            function ascending() {
+
+                newarray.sort(function (a, b) { return a - b });
+
+                document.getElementById("product_value").innerHTML = newarray;
+
+            }
+
+            function descending() {
+
+                newarray.sort(function (a, b) { return b - a });
+
+                document.getElementById("product_value").innerHTML = newarray;
+
+            }
+       
+
+        </script>
+
+</body>
+</html>

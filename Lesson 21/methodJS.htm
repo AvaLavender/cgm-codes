@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods in JS</title>
+</head>
+<body>
+    
+
+    <h2>JS string and math methods</h2>
+
+    <script>
+        var str="Coding is fun";
+        document.write("The actual string is <b>" + str + "</b> <br> <br>");
+        document.write(str.toUpperCase() +"<br>");
+        document.write(str.toLowerCase() + "<br>");
+        document.write(str.startsWith('C') + "<br>");
+
+        var teststr="I am learning JavaScript";
+        var patt= /JavaScript/;
+        var res=patt.test(teststr);
+        document.write(res+"<br>");
+
+        document.write(Math.random() + "<br>");
+        document.write(Math.floor(4.78));
+
+    </script>
+</body>
+</html>

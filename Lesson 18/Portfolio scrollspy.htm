@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Bootstrap JS -->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<title>Scrollspy</title>
+<style>
+    body{
+        position: relative;
+    }
+    p{
+        font-size: 18px
+    }
+    #section1{
+        padding-top: 50px;
+        height:1000px;
+        color: rgb(202, 226, 214);
+        background-color: rgb(46, 12, 23);
+        border-color: beige;
+        border-radius: 3px;
+    }
+    #section2{
+        padding-top: 50px;
+        height:1000px;
+        color: rgb(230, 197, 197);
+        background-color: rgb(8, 46, 17);
+        border-color: beige;
+        border-width: 3px;
+    }
+    #section3{
+        padding-top: 50px;
+        height:1000px;
+        color: rgb(170, 226, 179);
+        background-color: rgb(12, 20, 68);
+        border-color: beige;
+        border-width: 3px;
+    }
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="www.pawsome.com">Pawsome</a>
+            </div>
+        <div>
+        <div class="collapse navbar-collapse" td="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href=#section1>Home</a></li>
+                <li><a href=#section2>About</a></li>
+                <li><a href=#section3>Contact Us</a></li>
+            </ul>
+        </div>
+        </div>
+        </div>
+    </nav>
+
+    <div id="section1" class="conatiner-fluid">
+        <h1>Home</h1>
+        <h3>Our Cats!</h3>
+        <h5><section id="home">
+        
+            <h1>A world through a cat’s eyes.</h1>
+            <p>Soft paws, quiet moments, and a little chaos.</p>
+        
+            <button>Meet the Cats</button>
+            <button>Gallery</button>
+        
+            <hr>
+        
+            <h2>Featured Cats</h2>
+            <p><strong>Luna:</strong> silent observer</p>
+            <p><strong>Milo:</strong> tiny chaos</p>
+            <p><strong>Coco:</strong> professional napper</p>
+        
+            <hr>
+        
+            <h2>Moments</h2>
+            <p>caught mid-zoomies • judging silently • post-nap glow</p>
+        
+            <hr>
+        
+            <blockquote>“Soft paws, loud hearts.”</blockquote>
+        
+            <hr>
+        
+            <h2>A Cat’s Day</h2>
+            <p>Eat • Sleep • Chaos • Repeat</p>
+        
+            <hr>
+        
+            <h2>About</h2>
+            <p>A small space for cats, their moods, and their quiet chaos.</p>
+        
+            <hr>
+        
+            <h2>Stay for the cats.</h2>
+            <button>Join</button>
+        
+        </section></h5>
+    </div>
+    <div id="section2" class="conatiner-fluid">
+        <h1>About us</h1>
+        <h3>Our origin</h3>
+        <h5><section id="about-page">
+        
+            <h1>About</h1>
+        
+            <p>
+                This is a small space dedicated to cats—their moods, their silence,
+                and their little moments of chaos.
+            </p>
+        
+            <p>
+                Not just pets, but personalities.
+                Each one with their own habits, energy, and way of existing.
+            </p>
+        
+            <p>
+                This website captures those everyday moments—
+                the quiet stares, the sudden zoomies, the endless naps.
+            </p>
+        
+            <p>
+                Nothing perfect. Nothing staged.
+                Just cats, being cats.
+            </p>
+        
+            <hr>
+        
+            <h2>Why this exists</h2>
+            <p>
+                Because sometimes, the smallest moments feel the most real.
+            </p>
+        
+            <hr>
+        
+            <p><em>Soft paws. Loud hearts.</em></p>
+        
+        </section></h5>
+    </div>
+    <div id="section3" class="conatiner-fluid">
+        <h1>Contact us</h1>
+        <h3>Your Feedback Matters!</h3>
+        <h5><section id="contact-page">
+        
+            <h1>Contact</h1>
+        
+            <p>
+                Got a question, a story, or a cat you want to share?
+                Feel free to reach out.
+            </p>
+        
+            <form>
+                <label>Name</label><br>
+                <input type="text" name="name" placeholder="Your name"><br><br>
+        
+                <label>Email</label><br>
+                <input type="email" name="email" placeholder="Your email"><br><br>
+        
+                <label>Message</label><br>
+                <textarea name="message" rows="4" placeholder="Your message"></textarea><br><br>
+        
+                <button type="submit">Send</button>
+            </form>
+        
+            <hr>
+        
+            <p><em>Or just send a “meow.” That works too.</em></p>
+        
+        </section></h5>
+    </div>
+  
+</body>
+</html>

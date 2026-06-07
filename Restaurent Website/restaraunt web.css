@@ -1,0 +1,145 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #252525;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+/* Main Heading Font */
+.m-heading {
+    font-family: "Roboto Slab", serif;
+}
+
+.text-white {
+    color: white;
+}
+
+/* Main Container height*/
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Aligning items in main row */
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Changing Name Font sixe */
+.main_row h1 {
+    font-size: 5rem;
+
+}
+
+/* Making the main image the size of the screen */
+.main_row img {
+    width: auto;
+    height: 100vh;
+
+}
+
+.n-heading {
+    font-family: "Roboto Slab", serif;
+}
+
+.navigation-link {
+    border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid rgb(18, 95, 18);
+    transition: 0.7s ease;
+}
+ #about h1 {
+    font-weight: 900;
+ }
+  #projects h1 {
+      font-weight: 900;
+  }
+.card {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+.card-img-top {
+    padding: 18px;
+    height: 13rem;
+    object-fit: contain;
+}
+.card-text {
+    color: #617780;
+    font-size: .85rem;
+}
+.btn-success
+ {
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+footer {
+    background: rgb(31, 31, 31);
+    width: 100%;
+}
+
+footer.container {
+    padding: 22px 0 !important;
+}
+
+footer h5 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(155, 152, 152)
+}
+
+footer a {
+    color: rgb(22, 58, 6) !important;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline !important;
+    color: white;
+}
+#social-media {
+    background: rgb(15, 15, 15);
+}
+
+.m-heading {
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.media_link {
+    border: 2px solid rgb(11, 46, 3);
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin-right: 10px;
+    background: transparent;
+    text-align: left;
+}
+
+.row.pt-5 {
+    gap: 5px;
+}
+
+.media_link h3 {
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.media_link i {
+    font-size: 22px;
+}
+
+.media_link.bg-success {
+    border: 2px solid rgb(14, 58, 6);
+}
