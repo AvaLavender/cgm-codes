@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: #252525;
+    background: #b3a9b8;
     font-family: "Baloo Tamma 2", cursive;
 }
 
@@ -13,16 +13,17 @@ body {
 }
 
 .text-white {
-    color: white;
+    color: rgb(32, 7, 44);
 }
 
 /* Main Container height*/
 .main-container {
-    height: 100vh;
+    height: 400vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(17, 2, 41);
 }
 
 /* Aligning items in main row */
@@ -55,7 +56,7 @@ body {
 
 .navigation-link:hover {
     text-decoration: none;
-    border-bottom: 2px solid rgb(18, 95, 18);
+    border-bottom: 2px solid rgb(64, 18, 95);
     transition: 0.7s ease;
 }
  #about h1 {
@@ -75,17 +76,18 @@ body {
     object-fit: contain;
 }
 .card-text {
-    color: #617780;
+    color: #716180;
     font-size: .85rem;
 }
-.btn-success
- {
+.media_link.btn:hover {
+    background: rgb(78, 62, 105);
+    color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: 1rem;
     border-radius: 5px;
 }
 footer {
-    background: rgb(31, 31, 31);
+    background: rgb(27, 19, 37);
     width: 100%;
 }
 
@@ -101,16 +103,25 @@ footer h5 {
 }
 
 footer a {
-    color: rgb(22, 58, 6) !important;
+    color: rgb(163, 125, 185) !important;
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline !important;
-    color: white;
+    color: rgb(206, 193, 221);
 }
 #social-media {
     background: rgb(15, 15, 15);
+}
+
+.btn
+ {
+    background: rgb(114, 96, 146);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 5px;
 }
 
 .m-heading {
@@ -119,7 +130,7 @@ footer a:hover {
 }
 
 .media_link {
-    border: 2px solid rgb(11, 46, 3);
+    border: 2px solid rgb(114, 96, 146);
     border-radius: 4px;
     padding: 14px 18px;
     margin-right: 10px;
@@ -141,5 +152,5 @@ footer a:hover {
 }
 
 .media_link.bg-success {
-    border: 2px solid rgb(14, 58, 6);
+    border: 2px solid rgb(24, 6, 58);
 }
